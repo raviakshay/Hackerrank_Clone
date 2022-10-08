@@ -5,6 +5,6 @@
 body{
     text-align: center;
     color: #ff00c8;
-    background-image: linear-gradient(to bottom right,green,blue);
+    background-image: linear-gradient(to right,green,blue);
     background-size: auto;
 }

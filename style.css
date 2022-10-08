@@ -4,6 +4,6 @@
 }
 body{
     background-image: linear-gradient(to bottom right,orange,green);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
 }

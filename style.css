@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(to bottom right,orange,green);
-    height: 500px;
+    background-image: linear-gradient(to bottom right,green,blue);
+    height: auto;
+    background-repeat: no-repeat;
 }

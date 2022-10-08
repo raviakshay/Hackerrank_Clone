@@ -4,5 +4,7 @@
 }
 body{
     text-align: center;
-    color: #00ff00;
+    color: #ff00c8;
+    background-image: linear-gradient(to bottom right,green,blue);
+    background-size: auto;
 }

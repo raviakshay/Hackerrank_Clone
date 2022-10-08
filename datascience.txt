@@ -1,0 +1,17 @@
+#Plotting the values and rgression line 
+#generate new data keep up limits 
+min_x = np.min(X)-100 
+max_x = np.max(X)+100 
+#calculating the new x values by substituting above max and min approach and find 
+#new y x = np.linspace(min_x,max_x,1000) 
+#dividing evenly spaced values within given interval 
+y = b0+b1*x 
+#plttlng regression line -->new values 
+plt.plot(x,y,color='red',label ="Regression_Line") 
+#plottling scatter plot -->input data 
+plt.scatter(X,Y,color='blue',label="Scatter Plot") 
+plt.xlabel('Money Spent on TV Ads($)') 
+plt.ylabel('Sales($)') 
+plt.title("Basic Mathematical Regression Scenario") 
+plt.legend(loc="best") 
+#labels to be displayed plt.show()
